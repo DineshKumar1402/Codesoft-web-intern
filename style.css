@@ -1,0 +1,234 @@
+.banner{
+    background-image: url(/images/malli.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 200px 0px;
+}
+.skills-padding{
+    padding: 70px 0px;
+    
+}
+.project{
+    padding: 50px;
+}
+#resume {
+    text-align: center;
+    background: #dae1e9;
+    padding: 20px;
+}
+
+.download-btn {
+    margin-top: 20px;
+    
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    padding: 20px;
+    margin: 0;
+}
+
+.project-card p {
+    padding: 0 20px 20px;
+}
+
+.project-links {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-card i {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+/* About Section */
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text p {
+    margin-bottom: 20px;
+}
+
+  
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  input, textarea {
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .download-btn {
+    display: inline-block;
+    background-color: #007BFF; 
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+}
+
+.download-btn:hover {
+    background-color: #0056b3; 
+}
+
+#skills .card {
+    margin-bottom: 20px; 
+  }
+  
+  .card-img-top {
+    max-height: 160px;
+    object-fit: contain;
+  }
+  
+  
+  @media (max-width: 992px) {
+    #skills .col-md-2 {
+      col-span: 6;
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    #skills .col-sm-4 {
+      col-span: 12;
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .card {
+      margin-bottom: 15px;
+    }
+  
+    .card-img-top {
+      max-height: 120px; 
+    }
+  
+    .card-body {
+      padding: 10px;
+    }
+  
+    h5.card-title {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #skills .col-6 {
+      col-span: 12;
+      width: 100%;
+      margin: 0 auto;
+    }
+  
+    .card {
+      margin-bottom: 15px;
+    }
+  
+    .card-img-top {
+      max-height: 100px; 
+    }
+  
+    .card-body {
+      padding: 8px;
+    }
+  
+    h5.card-title {
+      font-size: 1.1rem;
+    }
+  
+    p.card-text {
+      font-size: 0.9rem;
+    }
+  }
+  
